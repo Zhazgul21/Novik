@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/gilroy-Bold.woff2), url(./fonts/gilroy-Bold.woff);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/gilroy-Medium.woff2), url(./fonts/gilroy-Medium.woff);
+    font-weight: 500;
+}
+*{
+    font-family: 'Gilroy';}
+
+.container{
+    max-width: 1000px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.link{
+    text-decoration: none;
+    line-height: 22.68px;
+    color: #828282;
+    transition: 0.3;
+}
+.link:hover{
+    color: #070707;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    min-height: 88px;
+    align-items: center;
+    border-bottom:1px solid #828282;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.logo h2{
+    color: #070707;
+    font-size: 47.34px;
+    line-height: 58.61px;
+    width: 123.51px;
+    height: 118.17;
+    font-weight: 600;
+
+}
+.logo p{
+    width: 155.65px;
+    height: 44.06px;
+    color: #070707;
+    font-size: 18px;
+    line-height: 21.83px;
+}
+.main_foto{
+    display: block;
+    text-align: center;
+
+}
+.about_me{
+    margin: 0 auto;
+    background-color: #F6F6F6;
+}
+h4{
+    display: block;
+    margin: 0 auto;
+    font-size: 34px;
+    line-height: 42.09px;
+    text-align: center;
+    color: #070707;
+    padding-top: 80px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.about_me_p{
+    width: 485.34px;
+    display: block;
+    font-size: 18px;
+    line-height: 21.83px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.about_me p{
+    padding: 20px 0px;
+}
+.skills{
+
+}
