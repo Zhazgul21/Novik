@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="container">
+    <header id="Home" class="container">
       <ul class="nav">
         <li><a class="link" href="#Home">Home</a></li>
         <li><a class="link" href="#About_me">About me</a></li>
@@ -19,34 +19,55 @@
       </ul>
     </header>
     <div class="logo container">
-      <h2>Denis Novik</h2>
+      <h1>Denis Novik</h1>
       <p>
         UX | UI desiner <br />
         24 years old, Minsk
       </p>
     </div>
     <div class="main_foto container">
-      <img src="img/BSPP2266.jpg" alt="man" />
+      <img src="img/BSPP2266.jpg" alt="man" width="940px" height="387px" />
     </div>
-    <div class="about_me">
-      <h4>About me</h4>
-      <div class="about_me_p">
-        <p>
-          Hi, I'm Denis – UX/UI designer from Minsk. <br />I'm interested in
-          design and everything connected with it.
-        </p>
-        <p>
-          I'm studying at courses "Web and mobile design interfaces" in
-          IT-Academy.
-        </p>
-        <p>
-          Ready to implement excellent projects <br />with wonderful people.
-        </p>
+    <section id="About_me">
+      <div class="about_me">
+        <h4 class="subtitle">About me</h4>
+        <div class="about_me_p">
+          <p>
+            Hi, I'm Denis – UX/UI designer from Minsk. <br />I'm interested in
+            design and everything connected with it.
+          </p>
+          <p>
+            I'm studying at courses "Web and mobile design interfaces" in
+            IT-Academy.
+          </p>
+          <p>
+            Ready to implement excellent projects <br />with wonderful people.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="skills container">
-      <h4>Skills</h4>
-      <p>I work in such programs as</p>
-    </div>
+    </section>
+    <section id="Skills">
+      <div class="skills container">
+        <h4 class="subtitle">Skills</h4>
+        <p>I work in such programs as</p>
+        <div class="skills_icons">
+          <img src="img/Ps.png" alt="icon PS" />
+          <img src="img/Ai.png" alt="icon Ai" />
+          <img src="img/Ae.png" alt="icon Ae" />
+          <img src="img/Figma.png" alt="icon Figma" />
+        </div>
+      </div>
+    </section>
+    <section id="Portfolio">
+      <div class="portfolio container">
+        <h4 class="subtitle">Portfolio</h4>
+        <img src="img/portfolioGirl.jpg" alt="photo girl" />
+        <u><a href="">Online fashion store - Homepage</a></u>
+        <img src="img/reebok_web.jpg" alt="reebok" />
+        <u><a href="">Reebok Store - Concept</a></u>
+        <img src="img/braun.jpg" alt="braun" />
+        <u><a href="">Braun Landing Page - Concept</a></u>
+      </div>
+    </section>
   </body>
 </html>
