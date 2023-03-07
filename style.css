@@ -61,6 +61,10 @@
     height: 118.17;
     font-weight: 600;
 }
+.main_foto{
+    display: block;
+    margin: 10px auto 50px;
+}
 .about_me{
     margin: 0 auto;
     background-color: #F6F6F6;
