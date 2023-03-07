@@ -53,7 +53,6 @@
     align-items: flex-end;
     justify-content: space-between;
     padding: 40px 0 104px;
-    margin-bottom: 50px;
 }
 .logo h1{
     font-size: 47.34px;
@@ -93,4 +92,22 @@ h4{
 }
 #Portfolio{
     background-color: #F6F6F6;
+}
+button{
+    background-color: #070707;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 180.5px;
+    height: 42px;
+    border-radius: 45px;
+    margin: 30px 0 85px;
+}
+.social_icons{
+    display: flex;
+    justify-content: space-between;
+    width: 342.18px;
+}
+footer p{
+    color: #828282;
+    margin: 45px 0 120px;
 }
